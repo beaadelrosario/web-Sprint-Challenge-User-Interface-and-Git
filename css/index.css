@@ -34,13 +34,26 @@ footer, header, hgroup, menu, nav, section {
 header .top {
     background-color: aquamarine;
     display:flex;
+    justify-content: space-evenly;
+}
+
+header .links {
+    background-color:red;
+    display:flex;
     justify-content: space-between;
+    width:50vh;
 }
 
 header .header-image{
     background-color: green;
     display:flex;
     justify-content: center;
+}
+
+nav {
+    width:50%;
+    display:flex;
+    justify-content: space-between;
 }
 
 body {
@@ -126,6 +139,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background:gold;
+}
+
+#box3 {
+    background:cadetblue;
+}
+
+#box4 {
+    background:coral;
+}
+
+#box5 {
+    background:crimson;
+}
+
+#box6 {
+    background:forestgreen;
+}
+
+#box7 {
+    background:darkorchid;
+}
+
+#box8 {
+    background:hotpink;
+}
+
+#box9 {
+    background:indigo;
+}
+
+#box10 {
+    background:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
