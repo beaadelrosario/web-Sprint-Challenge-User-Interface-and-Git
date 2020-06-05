@@ -202,8 +202,14 @@ p {
     display: inline;
     flex-wrap:wrap;
     justify-content: center;
-    width: 800px;
     margin: 0 auto;
+}
+
+.aboutboxes {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 footer {
