@@ -17,17 +17,32 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 1vh;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header .top {
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between;
+}
+
+header .header-image{
+    background-color: green;
+    display:flex;
+    justify-content: center;
+}
+
 body {
 	line-height: 1;
 }
