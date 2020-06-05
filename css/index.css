@@ -23,7 +23,6 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-    border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -32,10 +31,10 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header .top {
-    background-color: aquamarine;
     display:flex;
     justify-content: space-between;
-    width:0 auto;
+    width: 800px;
+    margin: 0 auto;
 }
 
 header .links {
@@ -46,7 +45,6 @@ header .links {
 }
 
 header .header-image{
-    background-color: green;
     display:flex;
     justify-content: center;
 }
@@ -196,14 +194,16 @@ p {
     padding-right: 0;
 }
 
+.container-aboutpage {
+    width: 800px;
+    margin: 0 auto;
+}
 .about-container {
-    display: flex;
+    display: inline;
     flex-wrap:wrap;
     justify-content: center;
-}
-
-.about-container .box {
-    background-color:pink;
+    width: 800px;
+    margin: 0 auto;
 }
 
 footer {
